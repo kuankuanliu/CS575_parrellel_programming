@@ -128,7 +128,7 @@ void Watcher( ){
         }
 }
 
-//Zombie eat rabbits
+//Zombie eat rabbits and might dead by cycle
 void Zomebie(){
     while(NowYear < 2029){
         float tmpZombie = NowNumZombie;
@@ -162,7 +162,7 @@ void Zomebie(){
 int main( int argc, char* argv[])
 {
     #ifndef _OPENMP
-    fprintf( stderr, "OpenMP is not supported here -- sorry.\n");
+    fprintf( stderr, "OpenMP is not supported here\n");
     return 1;
     #endif
 

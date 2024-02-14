@@ -1,1 +1,1 @@
-# CS575_parrellelprogram
+# CS575_parrellel_programming
